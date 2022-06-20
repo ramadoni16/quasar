@@ -6,8 +6,13 @@
   "author": "ramadoni16 <donicyberit@gmail.com>",
   "private": true,
   "scripts": {
+
     "lint": "eslint --ext .js,.vue ./",
+    "build": "quasar build",
+    "deploy": "vercel",
     "test": "echo \"No test specified\" && exit 0"
+
+
   },
   "dependencies": {
     "axios": "^0.21.1",
